@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The selected work and projects of independent artist Susu Xu."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Jessie Xu — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="#gallery" data-page="gallery">Galleries</a>
+        <a class="nav-link" href="#info" data-page="info">Info</a>
+        <a class="nav-link" href="#contact" data-page="contact">Contact</a>
+      </nav>
+
+      <a class="wordmark" href="#gallery" aria-label="Artwork home">
+        Jessie XU
+      </a>
+
+      <nav class="social-nav" aria-label="Social links">
+        <a href="https://www.instagram.com/jasssuie/" aria-label="Instagram" target="_blank" rel="noreferrer">ig</a>
+        <a href="https://www.linkedin.com/in/jessiexu-" aria-label="LinkedIn" target="_blank" rel="noreferrer">in</a>
+        <a href="mailto:jessie_xjs@outlook.com" aria-label="Email">⌯</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page gallery-page" id="gallery-page" aria-labelledby="gallery-heading">
+        <div class="gallery-intro">
+          <h1 id="gallery-heading">Artwork</h1>
+        </div>
+        <div class="gallery-grid" id="gallery-grid" aria-label="Selected projects"></div>
+        <p class="gallery-note">Independent artist & image-maker <span>Scroll to explore ↓</span></p>
+      </section>
+
+      <section class="page info-page" id="info-page" aria-labelledby="project-title" hidden>
+        <div id="project-content"></div>
+      </section>
+      <section class="page contact-page" id="contact-page" aria-labelledby="contact-title" hidden>
+        <div class="contact-wrap">
+          <p class="eyebrow">For collaborations, commissions & kindred spirits</p>
+          <img class="profile-photo" src="profile photo.jpg" alt="Portrait of Jessie Xu" />
+          <h1 id="contact-title">Let’s make<br /><em>something meaningful.</em></h1>
+          <p class="contact-copy">
+            I’m Jessie, an artist and image-maker drawn to quiet details, tactile
+            surfaces, and stories that unfold slowly. Have something in mind?
+            I’d love to hear about it.
+          </p>
+          <a class="contact-email" href="mailto:jessie_xjs@outlook.com">
+            jessie_xjs@outlook.com <span aria-hidden="true">↗</span>
+          </a>
+          <p class="contact-location">Based in Hong Kong</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a href="#gallery">Jessie XU</a>
+      <span>Made with care · © 2025</span>
+      <a href="#gallery">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
